@@ -3,13 +3,7 @@ import { Link } from 'react-router-dom'
 import {
     SearchIcon,
     ArrowUpRightIcon,
-    ChevronDownIcon,
-    ArrowLeftIcon,
-    UserPlusIcon,
-    PencilIcon,
-    ArrowDownUpIcon,
-    BookmarkIcon,
-    CheckCircleIcon,
+    ChevronDownIcon
 } from 'lucide-react'
 
 // Mock jobs data

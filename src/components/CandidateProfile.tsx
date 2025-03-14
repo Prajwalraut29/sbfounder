@@ -1,6 +1,14 @@
-import React from 'react'
+
 import { Calendar, Share2, CheckCircle, Linkedin, Globe, Bookmark } from 'lucide-react'
-const CandidateProfile = ({
+import React from 'react';
+interface CandidateProfileProps {
+    activeTab: string;
+    setActiveTab: (tab: string) => void;
+    fitStatus: string | null; // Allow null here
+    setFitStatus: (status: string | null) => void; // Allow null here
+}
+
+const CandidateProfile: React.FC<CandidateProfileProps> = ({
     activeTab,
     setActiveTab,
     fitStatus,

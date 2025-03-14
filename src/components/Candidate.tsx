@@ -5,8 +5,9 @@ import CandidateProfile from './CandidateProfile'
 import JobCandiHead from './JobsCandiHead'
 
 function App() {
-    const [activeTab, setActiveTab] = useState('Profile')
-    const [fitStatus, setFitStatus] = useState(null)
+    const [activeTab, setActiveTab] = useState<string>('Profile');
+    const [fitStatus, setFitStatus] = useState<string | null>(null);
+
     return (
         <div className="flex flex-col w-full min-h-screen bg-white">
             <div className="flex flex-col md:flex-row w-full">
