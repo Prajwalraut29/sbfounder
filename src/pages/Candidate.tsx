@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import CandidateFilters from './CandidateFilters'
-import CandidateList from './CandidateList'
-import CandidateProfile from './CandidateProfile'
-import JobCandiHead from './JobsCandiHead'
+import CandidateFilters from '../components/CandidateFilters'
+import CandidateList from '../components/CandidateList'
+import CandidateProfile from '../components/CandidateProfile'
+import JobCandiHead from '../components/JobsCandiHead'
 
 function App() {
     const [activeTab, setActiveTab] = useState<string>('Profile');

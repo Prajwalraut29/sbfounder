@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Dashboard from './components/Dashboard';
+import Dashboard from './pages/Dashboard';
 import NavBar from './components/Navbar';
-import Candidate from './components/Candidate';
+import Candidate from './pages/Candidate';
 
 const App = () => {
   return (
