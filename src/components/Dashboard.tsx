@@ -4,7 +4,7 @@ import JobsList from '../components/JobsList'
 import { Sidebar } from '../components/Sidebar'
 const Dashboard = () => {
     return (
-        <div className="flex w-full h-[calc(100vh-64px)]">
+        <div className="flex w-full h-full">
             {/* Left Sidebar - Company Profile */}
             <div className="w-80 min-w-80 border-r border-gray-200 overflow-y-auto">
                 <CompanyProfile />
@@ -15,7 +15,7 @@ const Dashboard = () => {
                 <JobsList />
             </div>
             {/* Right Sidebar - Interview Schedule */}
-            <div className="w-80 min-w-80 border-l border-gray-200">
+            <div className="w-80 min-w-80 border-l border-gray-200 overflow-y-auto">
                 <Sidebar />
             </div>
         </div>
